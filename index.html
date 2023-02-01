@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="TRTM: Template-based Reconstruction and Target-oriented Manipulation.">
+    <meta name="keywords" content="TRTM">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> TRTM: Template-based Reconstruction and Target-oriented Manipulation of Randomly Deformed Clothes. </title>
+
+    <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+    <link rel="stylesheet" href="./static/css/bulma.min.css">
+    <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+    <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <link rel="stylesheet" href="./static/css/index.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script defer src="./static/js/fontawesome.all.min.js"></script>
+    <script src="./static/js/bulma-carousel.min.js"></script>
+    <script src="./static/js/bulma-slider.min.js"></script>
+    <script src="./static/js/index.js"></script>
+</head>
+
+<body>
+
+<section class="hero">
+    <div class="hero-body">
+        <div class="container is-max-desktop">
+            <div class="columns is-centered">
+                <div class="column has-text-centered">
+                    <h1 class="title is-1 publication-title"> TRTM: Template-based Reconstruction and Target-oriented Manipulation of Randomly Deformed Clothes </h1>
+                    <div class="is-size-5 publication-authors">
+                        <span class="author-block">
+                            Wenbo Wang<sup>1</sup>,
+                        </span>
+                        <span class="author-block">
+                            Miguel Zamora<sup>1</sup>,
+                        </span>
+                        <span class="author-block">
+                            <a href="http://crl.ethz.ch/people/coros/index.html">Stelian Coros</a><sup>1</sup>
+                        </span>
+                    </div>
+
+                    <div class="is-size-5 publication-authors">
+                        <span class="author-block"><sup>1</sup>ETH Zurich</span>
+                    </div>
+
+                    <div class="column has-text-centered">
+                        <div class="publication-links">
+                            <!-- PDF Link. -->
+                            <span class="link-block">
+                                <a href="https://wenbwa.github.io/TRTM" class="external-link button is-normal is-rounded is-dark">
+                                    <span class="icon">
+                                        <i class="fas fa-file-pdf"></i>
+                                    </span>
+                                    <span>Paper</span>
+                                </a>
+                            </span>
+                            <!-- Video Link. -->
+                            <span class="link-block">
+                                <a href="https://wenbwa.github.io/TRTM" class="external-link button is-normal is-rounded is-dark">
+                                    <span class="icon">
+                                        <i class="fab fa-youtube"></i>
+                                    </span>
+                                    <span>Video</span>
+                                </a>
+                            </span>
+                            <!-- Dataset Link. -->
+                            <span class="link-block">
+                                <a href="https://wenbwa.github.io/TRTM" class="external-link button is-normal is-rounded is-dark">
+                                    <span class="icon">
+                                        <i class="fa fa-database"></i>
+                                    </span>
+                                    <span>Dataset</span>
+                                </a>
+                            </span>
+                            <!-- Code Link. -->
+                            <span class="link-block">
+                                <a href="https://wenbwa.github.io/TRTM" class="external-link button is-normal is-rounded is-dark">
+                                    <span class="icon">
+                                        <i class="fab fa-github"></i>
+                                    </span>
+                                    <span>Code</span>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="section" id="system">
+    <div class="container is-max-desktop">
+        <img src="assets/system.png" height="250" class="center"/>
+        <div class="columns is-centered has-text-centered">
+            <p>
+                <br>
+                TRTM system: a) Sim-real registration, b) Single-view reconstruction, c) Target-oriented querying, d) Dual-arm manipulation.
+            </p>
+        </div>
+    </div>
+</section>
+
+
+<section class="section">
+    <div class="container is-max-desktop">
+        <!-- Abstract. -->
+        <div class="columns is-centered has-text-centered">
+            <div class="column is-four-fifths">
+                <h2 class="title is-3">Abstract</h2>
+                <div class="content has-text-justified">
+                    <p>
+                        Precisely reconstructing and manipulating one randomly deformed cloth mesh is challenging due to the high dimensionality of the cloth model as well as the limited observation in front of the self-occluded regions.
+                        We leverage the recent progress in the single-view human body reconstruction to template-based reconstruct the randomly dragged, folded, and dropped cloth meshes from their top-view depth observations only, with some sim-real registration protocols.
+                        In contrast to previous implicit cloth representations and manipulations, our reconstructed mesh explicitly indicates the positions and visibilities of the entire randomly deformed cloth vertices, enabling more efficient dual-arm and single-arm target-oriented manipulations.
+                        Without loss of generality, our proposed template-based reconstruction and target-oriented manipulation (TRTM) can be directly and reasonably applied to daily clothes with a similar topology but various shapes, sizes, patterns, textures, and physical properties,
+                        promising future work to explicitly fold and unfold different clothes.
+                        <br><br>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Paper video. -->
+        <div class="columns is-centered has-text-centered">
+            <div class="column is-four-fifths">
+                <h2 class="title is-3">Video</h2>
+<!--                <div class="publication-video">-->
+<!--                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Q99t36qGZUU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+                <br><br>
+            </div>
+        </div>
+    </div>
+</section>
+
+<hr>
+
+
+<section class="section"  id="Template-based Reconstruction">
+    <div class="container is-max-desktop">
+        <h2 class="title is-3 has-text-centered">Template-based Reconstruction</h2>
+
+        <hr>
+        <img src="assets/gnn.png" height="250" class="center"/>
+        <p>
+            Template-based GNN: a) Synthetic training with simulated cloth meshes and depth images; b) Real-world tuning with collected cloth configurations and depth observations.
+            In our work, we report reliable real-world reconstruction results after the synthetic training process and only small improvement during the real-world tuning process, as shown in the Ablation Study.
+        </p>
+        <hr>
+
+        <hr>
+        <p>
+            <font size="+2">Within the simulation:</font> we demonstrate different state representations of the <font size="+1">Known</font> randomly dragged, folded, and dropped clothes:
+            Implicit top-view color image and depth image vs. Explicit reconstructed mesh and clustered group.
+            <br><br>
+        </p>
+        <p>
+            We decode each feature graph during the 15 GNN regression to demonstrate the "expanding" process of our template mesh.
+        </p>
+
+        <hr>
+        <p>
+            <font size="+1">Template simu square cloth:</font> mass-spring model, 21x21 vertices, 2x2 size, 0.1 edge length, blue color, 0.03 thickness.
+            <br><br>
+        </p>
+        <p>
+            We achieve on average 0.079 vertex-wise loss, 6.2% silhouette and 0.050 chamfer difference with this cloth.
+            <br><br>
+        </p>
+        <video poster="" id="chair-tp" autoplay controls muted loop height="100%">
+            <source src="assets/recon_template_simu.mp4" type="video/mp4">
+        </video>
+        <hr>
+
+        <hr>
+        <p>
+            <font size="+2">Within the real-world:</font> we demonstrate different state representations of the <font size="+1">Unknown</font> randomly dragged, folded, and dropped clothes:
+            Implicit top-view color image and depth image vs. Explicit reconstructed mesh and clustered group.
+            <br><br>
+        </p>
+        <p>
+            We decode each feature graph during the 15 GNN regression to demonstrate the "expanding" process of our template mesh.
+        </p>
+
+        <hr>
+        <p>
+            <font size="+1">Template real square cloth:</font> 0.3m x 0.3m size, blue color, keypoint labeled, 5mm thickness.
+            <br><br>
+        </p>
+        </p>
+        <p>
+            We achieve on average 0.119 (1.78cm) vertex-wise loss, 8.6% silhouette and 0.069 (1.04cm) chamfer difference with this cloth.
+            <br><br>
+        </p>
+        <video poster="" id="chair-tp" autoplay controls muted loop height="100%">
+            <source src="assets/recon_template_real.mp4" type="video/mp4">
+        </video>
+
+        <hr>
+        <p>
+            <font size="+1">Smaller square cloth:</font> 0.25m x 0.25m size, orange fluorescence color, keypoint labeled, 3mm thickness, stiffer.
+            <br><br>
+        </p>
+        <p>
+            We achieve on average 0.114 (1.43cm) vertex-wise loss, 7.9% silhouette and 0.058 (0.73cm) chamfer difference with this cloth.
+            <br><br>
+        </p>
+        <video poster="" id="chair-tp" autoplay controls muted loop height="100%">
+            <source src="assets/recon_square_small.mp4" type="video/mp4">
+        </video>
+
+        <hr>
+        <p>
+            <font size="+1">Larger square cloth:</font> 0.4m x 0.4m size, black-white strip-patterned color, keypoint labeled, 4mm thickness, softer.
+            <br><br>
+        </p>
+        <p>
+            We achieve on average 0.131 (2.62cm) vertex-wise loss, 9.3% silhouette and 0.075 (1.50cm) chamfer difference with this cloth.
+            <br><br>
+        </p>
+        <video poster="" id="chair-tp" autoplay controls muted loop height="100%">
+            <source src="assets/recon_square_large.mp4" type="video/mp4">
+        </video>
+
+        <hr>
+        <p>
+            <font size="+1">Rectangle square cloth:</font> 0.25m x 0.3m size, gray color, keypoint labeled, 5mm thickness.
+            <br><br>
+        </p>
+        <p>
+            We achieve on average 0.127 (1.91cm) vertex-wise loss, 8.9% silhouette and 0.068 (1.03cm) chamfer difference with this cloth.
+            <br><br>
+        </p>
+        <video poster="" id="chair-tp" autoplay controls muted loop height="100%">
+            <source src="assets/recon_rectangle.mp4" type="video/mp4">
+        </video>
+
+        <hr>
+        <p>
+            <font size="+1">Rectangle T-shirt:</font> 0.3m x 0.4m size, star-patterned color, keypoint labeled, 6mm thickness, two-layered bodies and sleeves.
+            <br><br>
+        </p>
+        <p>
+            We achieve on average 0.189 (3.78cm) vertex-wise loss, 12.3% silhouette and 0.081 (1.62cm) chamfer difference with this cloth.
+            <br><br>
+        </p>
+        <video poster="" id="chair-tp" autoplay controls muted loop height="100%">
+            <source src="assets/recon_shirt.mp4" type="video/mp4">
+        </video>
+        <hr>
+    </div>
+</section>
+
+
+<section class="section"  id="Dual-arm Manipulation">
+    <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+            <h2 class="title is-3">Dual-arm Manipulation</h2>
+        </div>
+
+        <hr>
+        <p>
+            <font size="+2">Within the real-world:</font> we demonstrate different state representations of the <font size="+1">Unknown</font> randomly dragged, folded, and dropped template square clothes within the operation region.
+            From the reconstructed cloth meshes and clustered mesh groups, we execute the target-oriented querying with dual-arm manipulation for flat, triangle, and rectangle targets.
+            <br><br>
+        </p>
+        <p>
+            The maximum dual-arm operation episode is set as two for flat target and only one for triangle and rectangle targets, during which the cloth meshes can still be tracked before and after each dual-arm grasp-hang-flip operation.
+        </p>
+
+        <hr>
+        <p>
+            <font size="+1">Randomly one-time dragged template square clothes:</font> dual-arm grasp-hang-flip to flat, triangle, and rectangle targets.
+            <br><br>
+        </p>
+        <p>
+            We achieve on average 95.2% coverage value for the flat target with two flipping operations;
+            While 85.9% and 82.6% top-view similarities for the triangle and rectangle targets with only one flipping operation.
+            <br><br>
+        </p>
+        <video poster="" id="chair-tp" autoplay controls muted loop height="100%">
+            <source src="assets/mani_temp_drag.mp4" type="video/mp4">
+        </video>
+
+        <hr>
+        <p>
+            <font size="+1">Randomly two-times folded template square clothes:</font> dual-arm grasp-hang-flip to flat, triangle, and rectangle targets.
+            <br><br>
+        </p>
+        <p>
+            We achieve on average 94.1% coverage value for the flat target with two flipping operations;
+            While 81.25% and 78.6% top-view similarities for the triangle and rectangle targets with only one flipping operation.
+            <br><br>
+        </p>
+        <video poster="" id="chair-tp" autoplay controls muted loop height="100%">
+            <source src="assets/mani_temp_fold.mp4" type="video/mp4">
+        </video>
+
+        <hr>
+        <p>
+            <font size="+1">Randomly one-time dropped template square clothes:</font> dual-arm grasp-hang-flip to flat, triangle, and rectangle targets.
+            <br><br>
+        </p>
+        <p>
+            We achieve on average 94.4% coverage value for the flat target with two flipping operations;
+            While 86.3% and 85.7% top-view similarities for the triangle and rectangle targets with only one flipping operation.
+            <br><br>
+        </p>
+        <video poster="" id="chair-tp" autoplay controls muted loop height="100%">
+            <source src="assets/mani_temp_drop.mp4" type="video/mp4">
+        </video>
+
+        <hr>
+        <hr>
+        <p>
+            <font size="+2">Within the real-world:</font> we demonstrate the generalization ability of our square TRTM system to other daily clothes (smaller rectangle, larger square, T-shirt) from the above Template-based Reconstruction section.
+            <br><br>
+        </p>
+        <p>
+            The maximum dual-arm operation episode is set as two for flat target and only one for triangle and rectangle targets, during which the cloth meshes can still be tracked before and after each dual-arm grasp-hang-flip operation.
+        </p>
+
+        <hr>
+        <p>
+            <font size="+1">Randomly one-time dropped rectangle cloth, larger square cloth, and T-shirt:</font> with flat, triangle, and rectangle targets.
+            <br><br>
+        </p>
+        <video poster="" id="chair-tp" autoplay controls muted loop height="100%">
+            <source src="assets/mani_other_drop.mp4" type="video/mp4">
+        </video>
+    </div>
+</section>
+
+
+<section class="section"  id="Single-arm Manipulation">
+    <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+            <h2 class="title is-3">Single-arm Manipulation</h2>
+        </div>
+
+        <hr>
+        <p>
+            <font size="+2">Within the real-world:</font> we demonstrate different state representations of the <font size="+2">Unknown</font> randomly dragged, folded, and dropped template square clothes within the operation region.
+            From the reconstructed cloth meshes and clustered mesh groups, we execute the target-oriented querying with single-arm manipulation for flat target.
+        </p>
+        <p>
+            The maximum single-arm operation episode is set as four for flat target, during which the cloth meshes can still be tracked before and after each single-arm grasp-drag operation.
+        </p>
+
+        <hr>
+        <p>
+            <font size="+1">Randomly dragged, folded, and dropped template square clothes:</font> single-arm grasp-drag the farthest visible group vertex to its locally flat target position (as shown in orange).
+            <br><br>
+        </p>
+        <p>
+            We achieve on average 92.3%, 82.3%, and 78.5% coverage values for the flat target with the randomly dragged, folded, and dropped template clothes after four dragging operations.
+            <br><br>
+        </p>
+        <video poster="" id="chair-tp" autoplay controls muted loop height="100%">
+            <source src="assets/mani_temp_single.mp4" type="video/mp4">
+        </video>
+    </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <a class="icon-link"
+         href="https://arxiv.org/pdf/2104.03953.pdf">
+        <i class="fas fa-file-pdf"></i>
+      </a>
+      <a class="icon-link" href="https://github.com/keunhong" class="external-link" disabled>
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+          <p>
+            This webpage is built with the template from <a href="https://github.com/nerfies/nerfies.github.io">NeRFies</a>. We sincerely thank <a href="https://keunhong.com/">Keunhong Park</a> for developing and open-sourcing this template.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+</body>
+</html>
