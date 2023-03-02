@@ -6,7 +6,7 @@
     <meta name="description" content="TRTM: Template-based Reconstruction and Target-oriented Manipulation.">
     <meta name="keywords" content="TRTM">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> TRTM: Template-based Reconstruction and Target-oriented Manipulation of Randomly Deformed Clothes. </title>
+    <title> TRTM: Template-based Reconstruction and Target-oriented Manipulation of Crumpled cloths. </title>
 
     <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
     <link rel="stylesheet" href="./static/css/bulma.min.css">
@@ -30,7 +30,7 @@
         <div class="container is-max-desktop">
             <div class="columns is-centered">
                 <div class="column has-text-centered">
-                    <h1 class="title is-1 publication-title"> TRTM: Template-based Reconstruction and Target-oriented Manipulation of Randomly Deformed Clothes </h1>
+                    <h1 class="title is-1 publication-title"> TRTM: Template-based Reconstruction and Target-oriented Manipulation of Crumpled Cloths </h1>
                     <div class="is-size-5 publication-authors">
                         <span class="author-block">
                             Wenbo Wang<sup>1</sup>,
@@ -101,7 +101,7 @@
     <div class="container is-max-desktop">
         <img src="assets/system.png" height="250" class="center"/>
         <p>
-            TRTM System: a) Sim-real registration of one real-world cloth to a synthetic cloth mesh with imitated top-view depth observations.
+            TRTM System: a) Sim-real registration of one real-world cloth to a synthetic cloth mesh with imitated top-view observations.
             b) Single-view template-based reconstruction of one randomly deformed cloth from its top-view depth observation only.
             c) Querying the best visible vertex pairs according to different target configurations: flat, triangle, and rectangle.
             d) Dual-arm manipulation using one ABB YuMi Robot at the selected vertex pair with optimized grasp-hang-and-flip trajectories.
@@ -118,11 +118,15 @@
                 <h2 class="title is-3">Abstract</h2>
                 <div class="content has-text-justified">
                     <p>
-                        Precisely reconstructing and manipulating one randomly deformed cloth mesh is challenging due to the high dimensionality of the cloth model as well as the limited observation in front of the self-occluded regions.
-                        We leverage the recent progress in the single-view human body reconstruction to template-based reconstruct the randomly dragged, folded, and dropped cloth meshes from their top-view depth observations only, with some sim-real registration protocols.
-                        In contrast to previous implicit cloth representations and manipulations, our reconstructed mesh explicitly indicates the positions and visibilities of the entire randomly deformed cloth vertices, enabling more efficient dual-arm and single-arm target-oriented manipulations.
-                        Without loss of generality, our proposed template-based reconstruction and target-oriented manipulation (TRTM) can be directly and reasonably applied to daily clothes with a similar topology but various shapes, sizes, patterns, textures, and physical properties,
-                        promising future work to explicitly fold and unfold different clothes.
+                        Precisely reconstructing and manipulating one crumpled cloth is challenging due to the high dimensionality of the cloth model, as well as the limited observation at self-occluded regions. 
+                        We leverage the recent progress in the field of single-view human body reconstruction to template-based reconstruct the crumpled cloths from their top-view depth observations only, with our proposed sim-real registration protocols. 
+                        In contrast to previous implicit cloth representations, our reconstruction mesh explicitly indicates the positions and visibilities of the entire cloth mesh vertices, enabling more efficient dual-arm and single-arm target-oriented manipulations. 
+                        Experiments demonstrate that our template-based reconstruction and target-oriented manipulation (TRTM) system can be applied to daily cloths with similar topologies as our template mesh, but have different shapes, sizes, patterns, and physical properties.
+                        
+<!--                        Precisely reconstructing and manipulating one randomly deformed cloth mesh is challenging due to the high dimensionality of the cloth model as well as the limited observation in front of the self-occluded regions.-->
+<!--                        We leverage the recent progress in the single-view human body reconstruction to template-based reconstruct the randomly dragged, folded, and dropped cloth meshes from their top-view depth observations only, with some sim-real registration protocols.-->
+<!--                        In contrast to previous implicit cloth representations and manipulations, our reconstructed mesh explicitly indicates the positions and visibilities of the entire randomly deformed cloth vertices, enabling more efficient dual-arm and single-arm target-oriented manipulations.-->
+<!--                        Without loss of generality, our proposed template-based reconstruction and target-oriented manipulation (TRTM) can be directly and reasonably applied to daily cloths with a similar topology but various shapes, sizes, patterns, textures, and physical properties,-->
                         <br><br>
                     </p>
                 </div>
@@ -158,7 +162,7 @@
 
         <hr>
         <p>
-            <font size="+2">Within the simulation:</font> we demonstrate different state representations of the <font size="+1">Known</font> randomly dragged, folded, and dropped clothes:
+            <font size="+2">Within the simulation:</font> we demonstrate different state representations of the <font size="+1">Known</font> randomly dragged, folded, and dropped cloths:
             Implicit top-view color image and depth image vs. Explicit reconstructed mesh and clustered group.
             <br><br>
         </p>
@@ -182,7 +186,7 @@
 
         <hr>
         <p>
-            <font size="+2">Within the real-world:</font> we demonstrate different state representations of the <font size="+1">Unknown</font> randomly dragged, folded, and dropped clothes:
+            <font size="+2">Within the real-world:</font> we demonstrate different state representations of the <font size="+1">Unknown</font> randomly dragged, folded, and dropped cloths:
             Implicit top-view color image and depth image vs. Explicit reconstructed mesh and clustered group.
             <br><br>
         </p>
@@ -268,7 +272,7 @@
 
         <hr>
         <p>
-            <font size="+2">Within the real-world:</font> we demonstrate different state representations of the <font size="+1">Unknown</font> randomly dragged, folded, and dropped template square clothes within the operation region.
+            <font size="+2">Within the real-world:</font> we demonstrate different state representations of the <font size="+1">Unknown</font> randomly dragged, folded, and dropped template square cloths within the operation region.
             From the reconstructed cloth meshes and clustered mesh groups, we execute the target-oriented querying with dual-arm manipulation for flat, triangle, and rectangle targets.
             <br><br>
         </p>
@@ -278,7 +282,7 @@
 
         <hr>
         <p>
-            <font size="+1">Randomly one-time dragged template square clothes:</font> dual-arm grasp-hang-flip to flat, triangle, and rectangle targets.
+            <font size="+1">Randomly one-time dragged template square cloths:</font> dual-arm grasp-hang-flip to flat, triangle, and rectangle targets.
             <br><br>
         </p>
         <p>
@@ -292,7 +296,7 @@
 
         <hr>
         <p>
-            <font size="+1">Randomly two-times folded template square clothes:</font> dual-arm grasp-hang-flip to flat, triangle, and rectangle targets.
+            <font size="+1">Randomly two-times folded template square cloths:</font> dual-arm grasp-hang-flip to flat, triangle, and rectangle targets.
             <br><br>
         </p>
         <p>
@@ -306,7 +310,7 @@
 
         <hr>
         <p>
-            <font size="+1">Randomly one-time dropped template square clothes:</font> dual-arm grasp-hang-flip to flat, triangle, and rectangle targets.
+            <font size="+1">Randomly one-time dropped template square cloths:</font> dual-arm grasp-hang-flip to flat, triangle, and rectangle targets.
             <br><br>
         </p>
         <p>
@@ -321,7 +325,7 @@
         <hr>
         <hr>
         <p>
-            <font size="+2">Within the real-world:</font> we demonstrate the generalization ability of our square TRTM system to other daily clothes (smaller rectangle, larger square, T-shirt) from the above Template-based Reconstruction section.
+            <font size="+2">Within the real-world:</font> we demonstrate the generalization ability of our square TRTM system to other daily cloths (smaller rectangle, larger square, T-shirt) from the above Template-based Reconstruction section.
             <br><br>
         </p>
         <p>
@@ -348,7 +352,7 @@
 
         <hr>
         <p>
-            <font size="+2">Within the real-world:</font> we demonstrate different state representations of the <font size="+2">Unknown</font> randomly dragged, folded, and dropped template square clothes within the operation region.
+            <font size="+2">Within the real-world:</font> we demonstrate different state representations of the <font size="+2">Unknown</font> randomly dragged, folded, and dropped template square cloths within the operation region.
             From the reconstructed cloth meshes and clustered mesh groups, we execute the target-oriented querying with single-arm manipulation for flat target.
         </p>
 
@@ -359,11 +363,11 @@
         </p>
 
         <p>
-            <font size="+1">Randomly dragged, folded, and dropped template square clothes:</font> single-arm grasp-drag the farthest visible group vertex to its locally flat target position (as shown in orange).
+            <font size="+1">Randomly dragged, folded, and dropped template square cloths:</font> single-arm grasp-drag the farthest visible group vertex to its locally flat target position (as shown in orange).
             <br><br>
         </p>
         <p>
-            We achieve on average 92.3%, 82.3%, and 78.5% coverage values for the flat target with the randomly dragged, folded, and dropped template clothes after four dragging operations.
+            We achieve on average 92.3%, 82.3%, and 78.5% coverage values for the flat target with the randomly dragged, folded, and dropped template cloths after four dragging operations.
             <br><br>
         </p>
         <video poster="" id="mani_tsingle" autoplay controls muted loop height="100%">
