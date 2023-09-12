@@ -21,6 +21,14 @@
     <script src="./static/js/bulma-carousel.min.js"></script>
     <script src="./static/js/bulma-slider.min.js"></script>
     <script src="./static/js/index.js"></script>
+
+    
+    <script>
+    function setPlaySpeed() { 
+      document.getElementById("recon_tsimu").playbackRate = 2;
+    }
+    window.onload = setPlaySpeed;
+    </script> 
 </head>
 
 <body>
@@ -183,12 +191,6 @@
         <video poster="" id="recon_tsimu" autoplay controls muted loop height="100%">
             <source src="assets/recon_template_simu.mp4" type="video/mp4">
         </video>
-        <script>
-        function setPlaySpeed() { 
-          document.getElementById("recon_tsimu").playbackRate = 2;
-        }
-        window.onload = setPlaySpeed;
-        </script> 
         <hr>
 
         <hr>
