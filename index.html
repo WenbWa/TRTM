@@ -183,7 +183,13 @@
         <video poster="" id="recon_tsimu" autoplay controls muted loop height="100%">
             <source src="assets/recon_template_simu.mp4" type="video/mp4">
         </video>
-        document.getElementById("myVideo").playbackRate = 1.5;
+        setPlaySpeed()
+        <script>
+        let vid_recon_tsimu = document.getElementById("recon_tsimu");
+        function setPlaySpeed() { 
+          vid_recon_tsimu.playbackRate = 2;
+        }
+        </script> 
         <hr>
 
         <hr>
