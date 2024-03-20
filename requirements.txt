@@ -1,0 +1,6 @@
+easydict
+matplotlib
+chamferdist
+scikit-image
+opencv-python
+torch-scatter
