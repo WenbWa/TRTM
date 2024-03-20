@@ -21,8 +21,8 @@
 ## Installation
 Git clone this repo:
 ```
-git clone -b main --single-branch https://github.com/WenbWa/TRTM.git
-cd TRTM
+git clone https://github.com/WenbWa/TRTM_ICRA.git
+cd TRTM_ICRA
 ```
 Init conda environment:
 ```
@@ -62,20 +62,20 @@ Test Cloth-GNN Model on template_square, use_real only, and from 'checkpoints/ch
 ```
 python main.py --phase test --cloth_name template_square --use_real True
 ```
-Test Cloth-GNN Model on other_clothes named as smaller_square, larger_square, rectangle, or shirt:
+Test Cloth-GNN Model on other_clothes named as smaller_square, rectangle, or shirt:
 ```
 python main.py --phase test --cloth_name other_clothes --use_real True
 ```
 
 ## Introduce your Own Testing Data
-Step1: centralize and normalize your cloth depth images according to the following configurations (see datasets):
+Step1: centralize and normalize your cloth depth images according to the following configurations (see datasets).
 
-image_size: 720x720, flat_cloth_size: 480x480, flat_pixel_value: 190~195, 1cm_depth_pixel_value: 20.
+Specifically, image_size: 720x720, cloth_size: 480x480, flat_pixel_value: 190~195, 1cm_depth_pixel_value: 20.
 <p align="center">
   <img width="70%" src="assets/examples.png"/>
 </p>
 
-Step2: create your_cloth_name and place your depth images into 'TRTM/datasets/your_cloth_name/real/test/'.
+Step2: create your_cloth_name and place your depth images into 'TRTM/datasets/your_cloth_name/real'.
 
 Step3: test Cloth-GNN Model on your cloth images using 'checkpoints/checkpoint_large_size.pt'.
 ```
