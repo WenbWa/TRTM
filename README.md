@@ -75,7 +75,7 @@ image_size: 720x720, flat_cloth_size: 480x480, flat_pixel_value: 190~195, 1cm_de
   <img width="70%" src="assets/examples.png"/>
 </p>
 
-Step2: create your_cloth_name and place your depth images into 'TRTM/datasets/your_cloth_name/real'.
+Step2: create your_cloth_name and place your depth images into 'TRTM/datasets/your_cloth_name/real/test/'.
 
 Step3: test Cloth-GNN Model on your cloth images using 'checkpoints/checkpoint_large_size.pt'.
 ```
