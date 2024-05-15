@@ -1,10 +1,11 @@
 # <p align="center">TRTM: Template-based Reconstruction and Target-oriented Manipulation of Crumpled Cloths </p>
 
-####  <p align="center"> [Wenbo Wang](https://wenbwa.github.io), [Gen Li](https://vlg.inf.ethz.ch/team/Gen-Li.html), [Miguel Zamora](), [Stelian Coros](https://crl.ethz.ch/people/coros/index.html)</p>
+### <p align="center"> [Wenbo Wang](https://wenbwa.github.io), [Gen Li](https://vlg.inf.ethz.ch/team/Gen-Li.html), [Miguel Zamora](), [Stelian Coros](https://crl.ethz.ch/people/coros/index.html)</p>
 
+### <p align="center"> Department of Computer Science, ETH Zurich
 ### <p align="center"> ICRA 2024
 
-### <p align="center">[ArXiv](https://arxiv.org/abs/2308.04670) | [Project Page](https://wenbwa.github.io/TRTM/)
+### <p align="center">[ArXiv](https://arxiv.org/abs/2308.04670) | [Website](https://wenbwa.github.io/TRTM/) | [Dataset](https://drive.google.com/drive/folders/19MV4ChIldysWknEQz-S2DIjdfeMIF4Ls?usp=sharing)
 
 <p align="center">
   <img width="100%" src="assets/TRTM.png"/>
