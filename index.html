@@ -33,21 +33,21 @@
                     <h1 class="title is-1 publication-title"> TRTM: Template-based Reconstruction and Target-oriented Manipulation of Crumpled Cloths </h1>
                     <div class="is-size-5 publication-authors">
                         <span class="author-block">
-                            <a href="https://wenbwa.github.io">Wenbo Wang</a><sup>1</sup>,
+                            <a href="https://wenbwa.github.io">Wenbo Wang</a>,
                         </span>
                         <span class="author-block">
-                            <a href="https://vlg.inf.ethz.ch/team/Gen-Li.html">Gen Li</a><sup>1</sup>,
+                            <a href="https://vlg.inf.ethz.ch/team/Gen-Li.html">Gen Li</a>,
                         </span>
                         <span class="author-block">
-                            Miguel Zamora<sup>1</sup>,
+                            Miguel Zamora,
                         </span>
                         <span class="author-block">
-                            <a href="http://crl.ethz.ch/people/coros/index.html">Stelian Coros</a><sup>1</sup>
+                            <a href="http://crl.ethz.ch/people/coros/index.html">Stelian Coros</a>
                         </span>
                     </div>
 
                     <div class="is-size-5 publication-authors">
-                        <span class="author-block"><sup>1</sup>ETH Zurich</span>
+                        <span class="author-block">ETH Zurich</span>
                     </div>
 
                     <div class="column has-text-centered">
@@ -156,6 +156,15 @@
 <section class="section"  id="Template-based Reconstruction">
     <div class="container is-max-desktop">
         <h2 class="title is-3 has-text-centered">Template-based Reconstruction</h2>
+        
+        <img src="assets/gnn.png" height="250" class="center"/>
+        <p>
+            Template-based GNN. a) Synthetic training with simulated cloth meshes and depth images. 
+            From left to right: synthetic cloth dataset and template mesh, image feature encoding and template graph encoding, 
+            graph feature updating with attention message flow, mesh decoding and supervising. 
+            b) Real-world tuning with collected cloth configurations and depth observations. 
+            From left to right: real-world cloth dataset, point cloud observation, pixel-wise tuned result from the GNN prediction.
+        </p>
 
 <!--        <hr>-->
 <!--        <img src="assets/gnn.png" height="250" class="center"/>-->
