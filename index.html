@@ -47,7 +47,7 @@
                     </div>
 
                     <div class="is-size-5 publication-authors">
-                        <span class="author-block">ETH Zurich</span>
+                        <span class="author-block">Department of Computer Science, ETH Zurich</span>
                     </div>
 
                     <div class="column has-text-centered">
@@ -138,7 +138,7 @@
         </div>
 
         <!-- Paper video. -->
-        <div class="columns is-centered has-text-centered">
+        <!-- <div class="columns is-centered has-text-centered">
             <div class="column is-four-fifths">
                 <h2 class="title is-3">Project Video</h2>
                 <video poster="" id="project_video" controls muted loop height="100%">
@@ -146,7 +146,17 @@
                 </video>
                 <br><br>
             </div>
+        </div> -->
+        <!-- Paper video. -->
+        <div class="columns is-centered has-text-centered">
+            <div class="column is-four-fifths">
+                <h2 class="title is-3">Paper Video</h2>
+                <div class="publication-video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/C0rrODnZKsc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>        
+                </div>
+            </div>
         </div>
+      <!--/ Paper video. -->
     </div>
 </section>
 
@@ -161,7 +171,7 @@
         <p>
             Template-based GNN. a) Synthetic training with simulated cloth meshes and depth images. 
             From left to right: synthetic cloth dataset and template mesh, image feature encoding and template graph encoding, 
-            graph feature updating with attention message flow, mesh decoding and supervising. 
+            graph feature updating with attention message flow, mesh decoding. 
             b) Real-world tuning with collected cloth configurations and depth observations. 
             From left to right: real-world cloth dataset, point cloud observation, pixel-wise tuned result from the GNN prediction.
         </p>
